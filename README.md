@@ -1,7 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 # Hello Microverse!
 
-> This Portfolio: Mobile Version project.
+> This is Portfolio: Mobile Version project.
 ## Built With
 - HTML
 - CSS
