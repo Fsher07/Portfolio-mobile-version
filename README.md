@@ -1,7 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
-# Portfolio: setup and mobile version skeleton
+# Mobile Website
 
-> This is Portfolio: Mobile Version project.
+> In this project I'm creating a portfolio in mobile version.
 ## Built With
 - HTML
 - CSS
