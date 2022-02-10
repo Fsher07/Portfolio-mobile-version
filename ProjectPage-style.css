@@ -1,0 +1,9 @@
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: flex-start;
+  gap: 10px;
+}
+#Tags {
+  text-decoration: none;
+}
