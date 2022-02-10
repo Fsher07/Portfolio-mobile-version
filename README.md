@@ -10,7 +10,7 @@
 👤 **Author1**
 
 - GitHub: [Salim](https://github.com/Fsher07)
-- Twitter: [Salim](https://twitter.com/twitterhandle)
+- Twitter: [Salim](https://twitter.com/furkansalimhdr1)
 - LinkedIn: [Salim](https://twitter.com/furkansalimhdr1)
 
 ## Show your support

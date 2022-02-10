@@ -75,9 +75,8 @@ section {
   overflow-x: hidden;
   background-image: url("illustration.png");
   background-repeat: no-repeat;
-  background-position: 220px 400px;
-
-  /* background-attachment: fixed; */
+  background-position: right bottom;
+  background-attachment: fixed;
 }
 
 /* latin */
