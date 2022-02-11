@@ -1,52 +1,76 @@
+/* Core Styles ---------> */
 *,
 **::before,
 **::after {
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-header {
-  display: flex;
-  background: #3c3a39;
-  -ms-flex-pack: distribute;
-  justify-content: space-around;
-  position: absolute;
-  min-width: 375px;
-  width: 100%;
-  min-height: 92px;
-  left: 0;
-  top: 0;
-  -webkit-box-align: end;
-  -ms-flex-align: end;
-  align-items: flex-end;
-  -ms-flex-negative: 1;
-  flex-shrink: 1;
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@500&family=Poppins:wght@500&family=Roboto:wght@500&display=swap');
+
+body {
+  text-align: center;
+  line-height: 1.5;
 }
 
-/* cyrillic */
-@font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  src: url(https://fonts.gstatic.com/s/roboto/v29/KFOmCnqEu92Fr1Mu5mxKOzY.woff2) format('woff2');
-  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+ul {
+  display: flex;
+  list-style: none;
+}
+
+p {
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  text-align: left;
+}
+
+.btn {
+  background-color: #ff6b00;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 17px;
+  padding: 12px;
+  border: 0;
+  margin-top: 10px;
+  width: 200px;
+  float: left;
+}
+
+.btn:hover {
+  background-color: #1c1a19;
+}
+
+a {
+  text-decoration: none;
+}
+
+.white {
+  color: #fff;
+}
+
+/* Works section -----------> */
+.works {
+  display: grid;
+  grid-auto-columns: 390px;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  background: #3c3a39;
+  padding: 12px 0;
+  height: 100%;
 }
 
 .name {
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
   color: #fff;
-  width: 30%;
-  font-family: 'Roboto', sans-serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 24px;
-  letter-spacing: 0;
-  margin-left: -80px;
-  margin-bottom: 10px;
   text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
 }
 
 .menu {
@@ -56,87 +80,224 @@ header {
   margin-bottom: 20px;
 }
 
-section {
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: flex-start;
-  padding: 120px 24px;
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  left: 0;
-  top: 92px;
-  background: #1c1a19;
-  overflow-x: hidden;
-  background-image: url("illustration.png");
-  background-repeat: no-repeat;
-  background-position: right bottom;
-  background-attachment: fixed;
-}
-
-/* latin */
-@font-face {
-  font-family: 'Crete Round';
-  font-style: normal;
-  font-weight: 400;
-  src: url(https://fonts.gstatic.com/s/creteround/v13/55xoey1sJNPjPiv1ZZZrxK170b0.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-
-h1 {
-  color: #ff6b00;
-  font-family: 'Crete Round', sans-serif;
-  font-size: 56px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 64px;
-  letter-spacing: 0.3700000047683716px;
-  text-align: left;
-}
-
-h2 {
+.fa-bars {
   color: #fff;
+  font-size: 18px;
 }
 
-/* latin */
-@font-face {
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  src: url(https://fonts.gstatic.com/s/poppins/v19/pxiEyp8kv8JHgFVrJJfecg.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+.headline {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  background: #1c1a19;
+  padding: 5%;
+  background-image: url("images/illustration.png");
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  height: 100%;
+  flex-basis: 390px;
 }
 
-p {
-  width: 327px;
-  left: 24px;
-  font-family: 'Poppins', sans-serif;
+.headline-h1 {
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
-  line-height: 24px;
-  color: #fff;
-  margin: 12px 0;
+  font-size: 56px;
+  line-height: 64px;
+  color: #ff6b00;
 }
 
-ul {
-  display: flex;
-  gap: 30px;
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
+#headline-h2 {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  color: #fff5e1;
+}
+
+.headline-ul {
+  justify-content: flex-start;
+  gap: 25px;
 }
 
 .icons {
   color: #fff;
   font-size: 24px;
-  margin-right: 12px;
 
   --fa-animation-duration: 4s;
   --fa-bounce-rebound: 1;
+}
+
+/* My Recent Works Page ---------> */
+.MyRWorks {
+  display: flex;
+  flex-direction: column;
+}
+
+.MyRWorks-header {
+  padding: 60px 10px 50px 10px;
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 52px;
+  border-bottom: 1px solid #212121;
+}
+
+.img-yoga {
+  width: 390px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#MRWorks-h2 {
+  color: #091e42;
+  font-family: 'Crete Round', serif;
+  text-align: left;
+}
+
+.MRWorks-p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #091e42;
+  text-align: left;
+}
+
+.rowFlex-ul {
+  justify-content: flex-start;
+  gap: 30px;
+  margin-left: -40px;
+}
+
+.rowFlex-ul li {
+  border: 1px solid #8993a4;
+  padding: 5px;
+}
+
+.MRWTabs {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #091e42;
+}
+
+/* Project Pages ---------> */
+.ProjectPage {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background: url("images/ProjectBackground.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 390px;
+  margin-top: 25px;
+  padding-left: 20px;
+  padding-right: 5px;
+}
+
+.ProjectPage-h2 {
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+}
+
+.project-ul {
+  text-align: left;
+  gap: 30px;
+  margin-left: -45px;
+}
+
+.project-ul li {
+  padding: 5px;
+  background: rgba(255, 255, 255, 0.24);
+  order: 0;
+  flex-grow: 0;
+  margin: 0 6px;
+}
+
+.Tags {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.ProjectPage .btn {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  box-sizing: unset;
+  margin-left: -20px;
+}
+
+.AboutMe {
+  margin-top: 7rem;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  background: #1c1a19;
+  padding: 10% 5% 5% 5%;
+  background-image: url("images/seconillu.png");
+  background-position: right 30rem;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.Aboutme-list {
+  border-top: 1px solid #fff;
+  margin-top: 25rem;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+
+.Aboutme-list li {
+  margin-top: 50px;
+  text-decoration: none;
+  color: #fff;
+}
+
+#language {
+  list-style-image: url("images/rectangle.png");
+}
+
+#frameworks {
+  list-style-image: url("images/rectangle2.png");
+}
+
+#skills {
+  list-style-image: url("images/circle.png");
+}
+
+.AboutmeTab {
+  font-family: 'InaiMathi', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+}
+
+.lang-list {
+  flex-direction: column;
+  align-items: center;
+  margin-left: -40px;
+}
+
+.lang-tabs {
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 43px;
 }
