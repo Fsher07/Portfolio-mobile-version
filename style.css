@@ -1,0 +1,264 @@
+/* Core Styles ---------> */
+*,
+**::before,
+**::after {
+  box-sizing: border-box;
+}
+body {
+  text-align: center; 
+  line-height: 1.5;
+}
+ul {
+  display: flex;
+  list-style: none;
+}
+p {
+  color: #fff;
+  font-family: 'Inter',sans-serif;
+  text-align: left;
+}
+.btn:hover {
+  background-color: #1C1A19;
+}
+a {
+  text-decoration: none;
+}
+.white {
+  color: #fff;
+}
+/* Works section ----------->*/
+.works {
+  display: grid;
+  grid-auto-columns: 390px;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+  background: #3C3A39;
+  padding: 12px 0;
+  height: 100%;
+}
+.name {
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+}
+.menu {
+  margin-right: -60px;
+  width: 18px;
+  height: 12px;
+  margin-bottom: 20px;
+}
+.fa-bars {
+  color: #fff;
+  font-size: 18px;
+}
+.headline {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  background: #1C1A19;
+  padding: 5%;
+  background-image: url("images/illustration.png");
+  background-position: right bottom; 
+  background-repeat: no-repeat; 
+  height: 100%;
+  flex-basis: 390px;
+}
+#headline-h1 {
+  font-family: 'Crete Round',sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 56px;
+  line-height: 64px;
+  color: #FF6B00;
+}
+#headline-h2 {
+  font-family: 'Roboto',sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  color: #FFF5E1;
+}
+.headline-ul {
+  justify-content: flex-start;
+  gap: 25px;
+}
+.icons {
+  color: #fff;
+  font-size: 24px;
+  --fa-animation-duration: 4s;
+  --fa-bounce-rebound: 1;
+}
+
+/* My Recent Works Page --------->*/
+.MyRWorks {
+  display: flex;
+  flex-direction: column;
+}
+.MyRWorks-header {
+  padding: 60px 10px 50px 10px;
+  font-family: 'Crete Round',sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 52px;
+  border-bottom: 1px solid #212121;
+}
+.img-yoga{ 
+  width: 390px;
+  margin-left: auto;  
+  margin-right: auto; 
+}
+#MRWorks-h2 {
+  color: #091E42;
+  font-family: 'Crete Round', serif;
+  text-align: left;
+}
+.MRWorks-p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #091E42;
+  text-align: left;
+}
+.rowFlex-ul {
+  justify-content: flex-start;
+  gap: 30px;
+  margin-left: -40px;
+}
+.rowFlex-ul li {
+  border: 1px solid #8993A4;
+  padding: 5px;
+}
+#MRWTabs {
+  font-family: 'Inter',sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #091E42;
+}
+.btn {
+  background-color: #FF6B00;
+  color: #fff;
+  font-family: 'Inter',sans-serif;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 17px;
+  padding: 12px;
+  border: 0px;
+  margin-top: 10px;
+  width: 200px;
+  float: left;
+}
+/* Project Pages --------->*/
+.ProjectPage {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background: url("images/ProjectBackground.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 390px;
+  margin-top: 25px;
+  padding-left: 20px;
+  padding-right: 5px;
+}
+#ProjectPage-h2 {
+  font-family: 'Crete Round',sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 44px;
+  color: #FFFFFF;
+}
+.project-ul {
+  text-align: left;
+  gap: 30px;
+  margin-left: -45px;
+}
+.project-ul li {
+  padding: 5px;
+  background: rgba(255, 255, 255, 0.24);
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 6px;
+}
+#Tags {
+  font-family: 'Inter',sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.ProjectPage .btn {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  box-sizing: unset;
+  margin-left: -20px;
+}
+.AboutMe {
+  background: #1C1A19;
+  margin-top: 7rem;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  background: #1C1A19;
+  padding: 10% 5% 5% 5%;
+  background-image: url("images/seconillu.png");
+  background-position: right 30rem; 
+  background-repeat: no-repeat; 
+  height: 100%;
+}
+
+.Aboutme-list {
+  border-top: 1px solid #FFFFFF;
+  margin-top: 25rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  align-items: center;
+}
+.Aboutme-list li {
+  margin-top: 50px;
+  text-decoration: none;
+  color:#fff;
+}
+#language{
+  list-style-image: url("images/rectangle.png");
+}
+#frameworks {
+  list-style-image: url("images/rectangle2.png");
+}
+#skills {
+  list-style-image: url("images/circle.png");
+}
+#AboutmeTab {
+  font-family: 'InaiMathi',sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  color: #FFFFFF;
+}
+.lang-list {
+  flex-direction: column;
+  align-items: center;
+  margin-left: -40px;
+}
+#lang-tabs {
+  color:#FFFFFF;
+  font-family: 'Inter',sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 43px;
+}
