@@ -96,7 +96,7 @@ a {
   flex-basis: 390px;
 }
 
-#headline-h1 {
+.headline-h1 {
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -173,7 +173,7 @@ a {
   padding: 5px;
 }
 
-#MRWTabs {
+.MRWTabs {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -196,7 +196,7 @@ a {
   padding-right: 5px;
 }
 
-#ProjectPage-h2 {
+.ProjectPage-h2 {
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -219,7 +219,7 @@ a {
   margin: 0 6px;
 }
 
-#Tags {
+.Tags {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -276,7 +276,7 @@ a {
   list-style-image: url("images/circle.png");
 }
 
-#AboutmeTab {
+.AboutmeTab {
   font-family: 'InaiMathi', sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -291,7 +291,7 @@ a {
   margin-left: -40px;
 }
 
-#lang-tabs {
+.lang-tabs {
   color: #fff;
   font-family: 'Inter', sans-serif;
   font-style: normal;
