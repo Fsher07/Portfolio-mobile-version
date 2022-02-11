@@ -5,6 +5,8 @@
   box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@500&family=Poppins:wght@500&family=Roboto:wght@500&display=swap');
+
 body {
   text-align: center;
   line-height: 1.5;
