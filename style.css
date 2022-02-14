@@ -13,7 +13,7 @@ body {
 }
 
 ul {
-  display: flex;
+  /* display: flex; */
   list-style: none;
 }
 
@@ -173,6 +173,8 @@ a {
 .rowFlex-ul li {
   border: 1px solid #8993a4;
   padding: 5px;
+  float: left;
+  margin-right: 18px;
 }
 
 .MRWTabs {
@@ -218,7 +220,8 @@ a {
   background: rgba(255, 255, 255, 0.24);
   order: 0;
   flex-grow: 0;
-  margin: 0 6px;
+  margin: 18px;
+  float: right;
 }
 
 .Tags {
