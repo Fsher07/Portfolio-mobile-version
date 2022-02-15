@@ -139,6 +139,7 @@ a {
 .icons {
   color: #fff;
   font-size: 24px;
+  font-weight: bold;
 
   --fa-animation-duration: 4s;
   --fa-bounce-rebound: 1;
@@ -315,4 +316,64 @@ a {
   font-weight: normal;
   font-size: 22px;
   line-height: 43px;
+}
+
+/* Contact Me Page ---------> */
+#contact-form {
+  margin-top: 7rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.iconsContact {
+  font-size: 24px;
+  color: #505f79;
+}
+
+.iconhvr:hover {
+  color: black;
+  transform: scale(1.5);
+  transition: all 0.3s linear;
+  margin-right: 2.5px;
+  margin-left: 2.5px;
+}
+
+.contact-title {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  padding: 7rem 10px 3rem 10px;
+}
+
+.namebox {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1px solid #dbd8d7;
+  padding-bottom: 10px;
+}
+
+#textA {
+  border: none;
+  background-color: #fbf8f7;
+  padding: 10px;
+}
+
+.contact-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-ul {
+  margin-top: 5rem;
+  border-top: 1px solid #dfe1e6;
+  padding: 2rem 10px;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
 }
