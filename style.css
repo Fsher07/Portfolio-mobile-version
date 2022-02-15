@@ -316,3 +316,54 @@ a {
   font-size: 22px;
   line-height: 43px;
 }
+
+/* Contact Me Page ---------> */
+.ContactPage {
+  margin-top: 7rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.iconsContact {
+  color: black;
+}
+
+.contact-title {
+  font-family: 'Inter',sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172B4D;
+}
+
+.namebox{
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1px solid #DBD8D7;
+  padding-bottom: 10px;
+}
+
+#textA {
+  margin: auto 5rem;
+  border: none;
+  background-color: #FBF8F7;
+  padding: 10px;
+}
+
+.contact-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-ul {
+  margin-top: 5rem;
+  border-top: 1px solid #DFE1E6;
+  padding: 2rem 10px;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
