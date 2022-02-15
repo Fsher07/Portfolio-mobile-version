@@ -327,9 +327,16 @@ a {
 }
 
 .iconsContact {
-  font-weight: bold;
   font-size: 24px;
   color: #505f79;
+}
+
+.iconhvr:hover {
+  color: black;
+  transform: scale(1.5);
+  transition: all 0.3s linear;
+  margin-right: 2.5px;
+  margin-left: 2.5px;
 }
 
 .contact-title {
@@ -370,3 +377,4 @@ a {
   justify-content: center;
   align-items: center;
 }
+
