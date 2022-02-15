@@ -37,8 +37,23 @@ p {
   float: left;
 }
 
+.btn:active {
+  background-color: #ff6b00;
+  color: #fff;
+  box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+  transform: translateY(4px);
+}
+
+.btn:disabled {
+  background: #f4f1f0;
+  color: #5b5957;
+}
+
 .btn:hover {
-  background-color: #1c1a19;
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  box-sizing: border-box;
+  color: #f55800;
 }
 
 a {
@@ -189,7 +204,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  background: url("images/ProjectBackground.png");
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url("images/ProjectBackground.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 390px;
@@ -218,7 +233,6 @@ a {
   background: rgba(255, 255, 255, 0.24);
   order: 0;
   flex-grow: 0;
-  margin: 0 6px;
 }
 
 .Tags {
@@ -229,6 +243,7 @@ a {
   line-height: 20px;
   color: #fff;
   text-decoration: none;
+  padding: 10px 12px;
 }
 
 .ProjectPage .btn {
