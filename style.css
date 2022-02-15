@@ -319,7 +319,7 @@ a {
 }
 
 /* Contact Me Page ---------> */
-.ContactPage {
+#contact-form {
   margin-top: 7rem;
   display: flex;
   flex-direction: column;
