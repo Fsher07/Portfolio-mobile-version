@@ -205,7 +205,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url("images/ProjectBackground.png");
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url("images/workbg.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 390px;

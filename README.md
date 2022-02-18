@@ -11,7 +11,7 @@
 
 - GitHub: [Salim](https://github.com/Fsher07)
 - Twitter: [Salim](https://twitter.com/furkansalimhdr1)
-- LinkedIn: [Salim](https://twitter.com/furkansalimhdr1)
+- LinkedIn: [Salim](https://www.linkedin.com/in/furkan-salim-h%C4%B1d%C4%B1r-3441ab1b2/)
 
 ## Show your support
 
